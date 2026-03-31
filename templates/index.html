@@ -87,20 +87,20 @@
                 
                 if (response.ok) {
                     
-                    resultElement.innerText = 'Calculation Result: ' + data.result;
+                    resultElement.textContent = 'Calculation Result: ' + data.result;
 
                     
                     await new Promise(resolve => setTimeout(resolve, 300));
                     
                 } else {
                     
-                    resultElement.innerText = 'Error: ' + data.error;
+                    resultElement.textContent = 'Error: ' + data.error;
                 }
             } catch (error) {
                 
                 console.error('Fetch error:', error);
                 
-                resultElement.innerText = 'Error: ' + error.message;
+                resultElement.textContent = 'Error: ' + error.message;
             }
         }
     </script>
