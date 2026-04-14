@@ -21,3 +21,10 @@ pip install -r requirements.txt
 pytest
 uvicorn main:app --reload
 
+## Run Application Locally
+uvicorn main:app --reload
+
+Docker Hub Repository
+https://hub.docker.com/r/bhavithaamrutha/fastapi-user-assignment
+GitHub Repository
+https://github.com/bt326/fastapi-user-assignment
