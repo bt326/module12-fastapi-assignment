@@ -1,0 +1,7 @@
+# Reflection
+
+This assignment helped me understand how to transform a basic FastAPI project into a secure backend application. I implemented a user model using SQLAlchemy and validated data using Pydantic schemas.
+
+One of the biggest learning experiences was password hashing and debugging CI/CD issues in GitHub Actions. I also learned how to write unit and integration tests and how automated workflows improve software quality.
+
+Another valuable skill was building Docker images and publishing them to Docker Hub. Overall, this project improved my skills in backend development, testing, deployment, and professional project structure.
