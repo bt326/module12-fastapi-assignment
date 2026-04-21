@@ -1,30 +1,71 @@
-# FastAPI User Assignment
 
-## Overview
-This project enhances a FastAPI calculator app by adding a secure user model with SQLAlchemy, password hashing, testing, CI/CD, and Docker Hub deployment.
+**Module 12 FastAPI Assignment**
 
-## Features
-- Calculator APIs
-- User Registration API
-- Hashed Password Storage
-- SQLAlchemy User Model
-- Pydantic Validation
-- Unit Tests
-- Integration Tests
-- GitHub Actions
-- Docker Deployment
+This project is a FastAPI-based calculator and user management application with automated testing, Docker support, and CI/CD using GitHub Actions.
 
-## Run Locally
+**Features**
 
-```bash
+Basic calculator operations: add, subtract, multiply, divide
+
+User registration
+
+User login with hashed passwords
+
+CRUD operations for calculations
+
+Automated unit, integration, and end-to-end tests
+
+Dockerized application
+
+GitHub Actions CI/CD pipeline
+
+
+Tech Stack
+
+Python
+
+FastAPI
+
+SQLAlchemy
+
+SQLite
+
+Pytest
+
+Playwright
+
+Docker
+
+GitHub Actions
+
+
+**Run Locally**
+
 pip install -r requirements.txt
+uvicorn main:app --reload
+
+**Open in browser:**
+http://127.0.0.1:8000/docs
+
+**Run Tests**
+
 pytest
-uvicorn main:app --reload
 
-## Run Application Locally
-uvicorn main:app --reload
+Docker
 
-Docker Hub Repository
-https://hub.docker.com/r/bhavithaamrutha/fastapi-user-assignment
-GitHub Repository
-https://github.com/bt326/fastapi-user-assignment
+**Build image:**
+
+docker build -t module12-fastapi-assignment .
+
+**Run container:**
+
+docker run -p 8000:8000 module12-fastapi-assignment
+
+**Links**
+
+GitHub Repo: 
+https://github.com/bt326/module12-fastapi-assignment
+
+Docker Hub: 
+https://hub.docker.com/r/bhavithaamrutha/module12-fastapi-assignment
+
