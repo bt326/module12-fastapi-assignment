@@ -69,3 +69,17 @@ https://github.com/bt326/module12-fastapi-assignment
 Docker Hub: 
 https://hub.docker.com/r/bhavithaamrutha/module12-fastapi-assignment
 
+## Run Integration Tests
+pytest tests/integration/
+
+## Manual API Checks (OpenAPI)
+Run app:
+uvicorn main:app --reload
+
+Open:
+http://127.0.0.1:8000/docs
+
+Use Swagger UI to test:
+- /users/register
+- /users/login
+- /calculations
